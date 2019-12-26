@@ -5,18 +5,15 @@ class Artist
   def initialize(name)
     @name = name
     @songs = []
-    #binding.pry
   end
   
   def songs
     @songs
-     #binding.pry
   end
    
   def add_song(song)
     @songs << song
     song.artist = self
-#binding.pry
   end
   
   def add_song_by_name(name)
@@ -26,6 +23,5 @@ class Artist
   
   def self.song_count
     Song.all.size
-    #binding.pry
   end
 end
