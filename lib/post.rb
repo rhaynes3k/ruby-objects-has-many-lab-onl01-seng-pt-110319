@@ -23,5 +23,4 @@ class Post
   def author_name
     author.name if author
   end
-  #binding.pry
 end
