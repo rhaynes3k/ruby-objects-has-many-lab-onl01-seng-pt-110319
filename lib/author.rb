@@ -14,6 +14,7 @@ class Author
   def add_post(post)
     @posts << post
     post.author = self
+<<<<<<< HEAD
   end
   
   def add_post_by_title(title)
@@ -24,4 +25,10 @@ class Author
   def self.post_count
     Post.all.size
   end
+=======
+  end
+  
+  def 
+  #binding.pry
+>>>>>>> c5106780297d99dc445b9218bc0755f70d85d6c9
 end
